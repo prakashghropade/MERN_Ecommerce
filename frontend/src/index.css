@@ -1,0 +1,397 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-slate-100
+  
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+  }
+
+ body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+ }
+
+
+ /* bidt color */
+
+  body{
+    background-color: #3d70cfc4;
+    position: static;
+  
+   }
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* logo */
+
+.logo{
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  border: 2px solid transparent;
+}  
+
+.logo:hover{
+  border: 2px solid white;
+}
+
+.header{
+  background-color: #1F305E;
+  border: 2px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.35)5px 15px 25px;
+}
+
+
+/* login btn  logout btn*/
+.loginbtn{
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid transparent;
+}
+
+.loginbtn:hover{
+  border: 2px solid white;
+}
+
+.logout{
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid transparent;
+}
+
+.logout:hover{
+  border: 2px solid white;
+}
+
+/* shopping  cart */
+.shopping{
+  height: 50px;
+  width: 50px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.shopping:hover{
+  border: 2px solid white;
+}
+
+/* user icon */
+.usericon{
+  height: 50px;
+  width: 50px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.usericon:hover{
+  border: 2px solid white;
+  padding: 4px;
+}
+
+/* search box */
+.search-box{
+   background-color: transparent;
+   font-size: 18px;
+   border: 2px solid transparent;
+}
+
+.search-border{
+  border: 2px solid white;
+  background-color: white;
+}
+
+.searchiconbox{
+    background-color: #FFC40C;
+    height: 35px;
+    border: 2px solid #ffbf00;
+}
+
+.searchicon{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+/* =============================Category list============================ */
+
+.categoryicon{
+  border: 2px solid #1F305E;
+}
+
+.categoryicon:hover{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* banner */
+
+.banner{
+   border: 4px solid #1F305E;
+}
+
+.banner:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.scrollbtn{
+  border: 2px solid #121210;
+}
+
+.scrollbtn:hover{
+  box-shadow: rgba(255, 255, 255, 0.995) 0px 5px 15px;
+  background-color: #1F305E;
+  color: white;
+}
+/* horizontal box */
+.card-desc{
+  background-color: #1F305E;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.card-desc:hover{
+  border: 2px solid white;
+}
+
+.addtocartbtn{
+     background-color: #ffbf00;
+     color: black;
+     font-weight: bold;
+     border: 3px solid transparent;
+}
+
+.addtocartbtn:hover{
+  background-color: white;
+  border: 3px solid #ffbf00;
+  box-shadow: rgba(244, 240, 12, 0.995) 0px 5px 15px;
+}
+
+.card-img{
+   border: 2px solid transparent;
+}
+
+.card-img:hover{
+  border: 2px solid #1F305E;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* oder card img */
+
+.ordercard-img{
+  border: 2px solid transparent;
+}
+
+.ordercard-img:hover{
+  border: 2px solid #1F305E;
+
+}
+
+.ordercard-desc{
+  background-color: #1F305E;
+  color: white;
+}
+
+.orderBox{
+  background-color: #c3d1f7;
+}
+
+/* Product details */
+
+.stars{
+  color: #ffbf00;
+}
+
+.productCat{
+  color: #1F305E;
+}
+
+.productDesc{
+  color: #1F305E;
+}
+
+.buybtn{
+  border: 2px solid #ffbf00;
+  background-color: white;
+
+}
+
+.buybtn:hover{
+  background-color: #ffbf00;
+  box-shadow: rgba(244, 240, 12, 0.995) 0px 5px 15px;
+  color: black;
+}
+
+
+.productImg{
+  background-color: white;
+  border: 2px solid transparent;
+}
+
+.productImg:hover{
+  border: 2px solid #1F305E;
+  box-shadow: rgba(255, 243, 243, 0.4) 0px 4px 8px, rgba(255, 249, 249, 0.3) 0px 7px 13px -3px, rgba(255, 246, 246, 0.2) 0px -3px 0px inset;
+}
+
+.fullImg{
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+.fullImg:hover{
+  border: 1px solid #1F305E;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+
+/* login */
+.logincontainer{
+  border: 3px solid transparent;
+}
+
+.logincontainer:hover{
+  border: 3px solid #1F305E;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
+
+.inputbox{
+  border: 2px solid transparent;
+}
+
+.inputbox:hover{
+  border: 2px solid #1F305E;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* category list */
+
+.categorylist{
+  border: 2px solid transparent;
+}
+
+.categorylist:hover{
+  border: 2px solid #1F305E;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.sort{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.adminallproduct{
+  border: 2px solid transparent;
+}
+
+.adminallproduct:hover{
+  border: 2px solid #1F305E;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.editbtn{
+ border: 2px solid transparent; 
+}
+
+.editbtn:hover{
+  border: 2px  solid green;
+  box-shadow: rgba(17, 243, 32, 0.693) 0px 22px 70px 4px;
+
+}
+
+/* cart product */
+.cartproduct{
+    background-color: #1F305E;
+    color: white;
+    border: 3px solid transparent;
+}
+
+.cartproduct:hover{
+   border: 3px solid white;
+}
+
+.addremovebtn{
+  border: 2px solid transparent;
+  background-color: #ffbf00;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addremovebtn:hover{
+  border: 2px solid #ffbf00;
+  background-color: white;
+  box-shadow: rgba(244, 240, 12, 0.995) 0px 5px 15px;
+
+}
+
+.totalamt{
+  background-color: #e4e4e4;
+  color: black;
+  border: 2px solid white;
+  padding: 3px;
+}
+
+.deletebtn{
+  font-size: 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 100%;
+  padding: 3px;
+  margin: 2px;
+}
+
+.deletebtn:hover{
+  border: 2px solid #ffbf00;
+  color: red;
+  box-shadow: rgba(244, 240, 12, 0.995) 0px 5px 15px;
+}
+
+
+/* Order Details */
+
+.orderdate{
+background-color: #ffbf00;
+color: black;
+}
+
+.ordedetails
+{
+  background-color: #FF8F00;
+  margin: 40px;
+}
+
+.order-header{
+  color: black;
+  text-decoration: underline;
+}
